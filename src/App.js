@@ -30,12 +30,23 @@ function App() {
   };
   return (
     <Container fluid className="container">
-      <Header as="h2">React Google Sheets!</Header>
+      <Header style={{ marginBottom: 0 }} as="h2">
+        React Google Sheets!
+      </Header>
+      <Header style={{ marginTop: 0 }} as="h4">
+        Google sheet{" "}
+        <a
+          target="_blank"
+          href="https://docs.google.com/spreadsheets/d/1ov5xc_ruDKvOf9I7Qgj1UvtVoWr-SOH6fstVUfpaKAc/edit#gid=0"
+        >
+          view
+        </a>
+      </Header>
       <Form className="form" onSubmit={submitHandler}>
         <Form.Field>
           <label>Name</label>
           <input
-            placeholder="Inserisci nome"
+            placeholder="Enter name"
             type="text"
             name="firstname"
             defaultValue={state.name}
@@ -43,9 +54,9 @@ function App() {
           />
         </Form.Field>
         <Form.Field>
-          <label>Cognome</label>
+          <label>Lastname</label>
           <input
-            placeholder="Inserisci cognome"
+            placeholder="Enter lastname"
             type="text"
             name="lastname"
             defaultValue={state.age}
