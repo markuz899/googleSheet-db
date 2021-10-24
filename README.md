@@ -1,3 +1,12 @@
+Open a new Spreadsheet in google sheet, clicking File, then New, and then Spreadsheet.
+Click the share button on the top right of your screen, and edit the permission to public.
+Copy the link and go to http://sheet.best and create your free account.
+Create a new connection and paste your generated copied URL from the Google Sheets in the connection URL box.
+Copy the CONNECTION URL generated in http://sheet.best. This URL will be used as the endpoint for sending POST Requests.
+
+![Image 1](/public/pic1.png)
+![Image 2](/public/pic2.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -28,9 +37,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 ### `yarn build` fails to minify
-
-Open a new Spreadsheet in google sheet, clicking File, then New, and then Spreadsheet.
-Click the share button on the top right of your screen, and edit the permission to public.
-Copy the link and go to http://sheet.best and create your free account.
-Create a new connection and paste your generated copied URL from the Google Sheets in the connection URL box.
-Copy the CONNECTION URL generated in http://sheet.best. This URL will be used as the endpoint for sending POST Requests.
